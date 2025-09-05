@@ -1,0 +1,36 @@
+2025-09-01 12:22:37,849 INFO    MainThread:90661 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_setup.py:_flush():80] Configure stats pid to 90661
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_setup.py:_flush():80] Loading settings from /Users/shirshendusekharmondal/.config/wandb/settings
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_setup.py:_flush():80] Loading settings from /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/settings
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_122237-672w3tvi/logs/debug.log
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_122237-672w3tvi/logs/debug-internal.log
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x10e184b50>
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:init():830] calling init triggers
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'framework': 'PyTorch', 'batch_size': 8, 'epochs': 3, '_wandb': {}}
+2025-09-01 12:22:37,850 INFO    MainThread:90661 [wandb_init.py:init():871] starting backend
+2025-09-01 12:22:38,059 INFO    MainThread:90661 [wandb_init.py:init():874] sending inform_init request
+2025-09-01 12:22:38,070 INFO    MainThread:90661 [wandb_init.py:init():882] backend started and connected
+2025-09-01 12:22:38,074 INFO    MainThread:90661 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2025-09-01 12:22:38,076 INFO    MainThread:90661 [wandb_init.py:init():953] updated telemetry
+2025-09-01 12:22:38,078 INFO    MainThread:90661 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-09-01 12:22:38,212 INFO    MainThread:90661 [wandb_init.py:init():1029] starting run threads in backend
+2025-09-01 12:22:38,492 INFO    MainThread:90661 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-01 12:22:38,492 INFO    MainThread:90661 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-01 12:22:38,492 INFO    MainThread:90661 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-01 12:22:38,492 INFO    MainThread:90661 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-01 12:22:38,494 INFO    MainThread:90661 [wandb_init.py:init():1075] run started, returning control to user process
+2025-09-01 12:22:41,185 INFO    MainThread:90661 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-09-01 12:22:42,772 INFO    MainThread:90661 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-09-01 12:22:42,776 INFO    MainThread:90661 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-09-01 12:22:43,523 INFO    MainThread:90661 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-09-01 12:22:43,534 INFO    MainThread:90661 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-09-01 12:22:43,534 INFO    MainThread:90661 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-09-01 12:22:43,544 INFO    MainThread:90661 [wandb_run.py:_finish():2260] finishing run cv-pipeline-production/672w3tvi
+2025-09-01 12:22:43,616 INFO    MainThread:90661 [jupyter.py:save_history():480] not saving jupyter history
+2025-09-01 12:22:43,616 INFO    MainThread:90661 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-09-01 12:22:43,616 INFO    MainThread:90661 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-09-01 12:22:43,616 INFO    MainThread:90661 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-09-01 12:22:43,617 INFO    MainThread:90661 [wandb_run.py:_restore():2441] restore
+2025-09-01 12:22:43,617 INFO    MainThread:90661 [wandb_run.py:_restore():2447] restore done

@@ -1,0 +1,32 @@
+2025-09-01 12:24:31,214 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/run-20250901_122431-4jp75ze6/logs/debug.log
+2025-09-01 12:24:31,215 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/run-20250901_122431-4jp75ze6/logs/debug-internal.log
+2025-09-01 12:24:31,215 INFO    MainThread:90661 [wandb_init.py:init():830] calling init triggers
+2025-09-01 12:24:31,215 INFO    MainThread:90661 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-01 12:24:31,218 INFO    MainThread:90661 [wandb_init.py:init():871] starting backend
+2025-09-01 12:24:31,218 INFO    MainThread:90661 [wandb_init.py:init():874] sending inform_init request
+2025-09-01 12:24:31,220 INFO    MainThread:90661 [wandb_init.py:init():882] backend started and connected
+2025-09-01 12:24:31,231 INFO    MainThread:90661 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2025-09-01 12:24:31,231 WARNING MsgRouterThr:90661 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "/Users/shirshendusekharmondal/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shirshendusekharmondal/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 227, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shirshendusekharmondal/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 212, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shirshendusekharmondal/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 56, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shirshendusekharmondal/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-09-01 12:24:31,233 INFO    MainThread:90661 [wandb_init.py:init():953] updated telemetry
+2025-09-01 12:24:31,236 INFO    MsgRouterThr:90661 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

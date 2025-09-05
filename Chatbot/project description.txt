@@ -1,0 +1,22 @@
+chatbot_project/
+│
+├── data/
+│   ├── intents.json
+│   └── __init__.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── intent_classifier.h5 (will be created after training)
+│   ├── tokenizer.pickle (will be created after training)
+│   └── label_encoder.pickle (will be created after training)
+│
+├── utils/
+│   ├── __init__.py
+│   ├── preprocessor.py
+│   ├── model_trainer.py
+│   └── response_generator.py
+│
+├── main.py
+├── train_model.py
+├── requirements.txt
+└── README.md

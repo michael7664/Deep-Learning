@@ -1,0 +1,8 @@
+2025-09-01 12:25:49,249 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_122549-sexvrf9o/logs/debug.log
+2025-09-01 12:25:49,249 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_122549-sexvrf9o/logs/debug-internal.log
+2025-09-01 12:25:49,250 INFO    MainThread:90661 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x307b55fd0>
+2025-09-01 12:25:49,253 INFO    MainThread:90661 [wandb_init.py:init():830] calling init triggers
+2025-09-01 12:25:49,253 INFO    MainThread:90661 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-01 12:25:49,253 INFO    MainThread:90661 [wandb_init.py:init():871] starting backend
+2025-09-01 12:25:49,253 INFO    MainThread:90661 [wandb_init.py:init():874] sending inform_init request

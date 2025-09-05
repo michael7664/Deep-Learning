@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello there",
+        "Hi there",
+        "Hey there",
+        "Howdy",
+        "Greetings",
+        "What's up",
+        "Sup",
+        "Yo",
+        "Good day",
+        "Hello friend"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I assist you?",
+        "Greetings! How may I help you?",
+        "Hello! Nice to meet you!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Have a good day",
+        "Talk to you later",
+        "Farewell",
+        "See ya",
+        "Catch you later",
+        "Bye bye",
+        "Take care",
+        "I'm leaving",
+        "Good night",
+        "See you tomorrow",
+        "Signing off"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!",
+        "Bye! Come back soon!",
+        "Farewell! Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "That's helpful",
+        "Thank you very much",
+        "Thanks a lot",
+        "Much appreciated",
+        "I appreciate it",
+        "You're awesome",
+        "Good job"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather today?",
+        "Weather forecast",
+        "Is it going to rain today?",
+        "Will it be sunny?",
+        "Temperature today",
+        "Weather report",
+        "Is it cold outside?",
+        "How hot is it today?",
+        "Should I bring an umbrella?",
+        "What's the temperature?",
+        "Weather in London",
+        "Weather in New York",
+        "Weather in Paris",
+        "Tokyo weather",
+        "Berlin weather forecast",
+        "Weather Rome",
+        "Barcelona climate",
+        "Weather conditions",
+        "Is it snowing?",
+        "Humidity level",
+        "Wind speed today"
+      ],
+      "responses": [
+        "I can check the weather for you. What's your location?",
+        "For weather information, I'll need to know your city.",
+        "I'd be happy to help with weather info. Where are you located?",
+        "Let me get the weather forecast for you. Which city?",
+        "Sure! Which city's weather would you like to know about?"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "Time please",
+        "What's the time?",
+        "Tell me the time",
+        "What time do you have?",
+        "Time check",
+        "Could you tell me the time?",
+        "What's the current time?",
+        "Do you know what time it is?"
+      ],
+      "responses": [
+        "The current time is {time}",
+        "It's {time} right now",
+        "Right now it's {time}",
+        "The time is currently {time}"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Funny story",
+        "Say something funny",
+        "I need a laugh",
+        "Joke please",
+        "Can you tell a joke?",
+        "Make me smile",
+        "Funny joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "What do you call a fake noodle? An impasta!",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What do you call a bear with no teeth? A gummy bear!"
+      ]
+    },
+    {
+      "tag": "about_ai",
+      "patterns": [
+        "What is AI?",
+        "Tell me about artificial intelligence",
+        "How does AI work?",
+        "What is machine learning?",
+        "Explain neural networks",
+        "What is deep learning?",
+        "How do chatbots work?",
+        "What is natural language processing?"
+      ],
+      "responses": [
+        "AI (Artificial Intelligence) is the simulation of human intelligence processes by machines.",
+        "Artificial intelligence involves machines that can learn, reason, and perform intelligent tasks.",
+        "AI works by combining large amounts of data with fast processing and intelligent algorithms."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is Python?",
+        "Tell me about programming",
+        "How to learn coding?",
+        "What is JavaScript?",
+        "Explain machine learning",
+        "Web development basics",
+        "Data science concepts",
+        "What is TensorFlow?"
+      ],
+      "responses": [
+        "Python is a high-level programming language known for its readability and versatility.",
+        "Programming involves writing instructions for computers to execute.",
+        "To learn coding, start with basics, practice regularly, and work on small projects."
+      ]
+    },
+      {
+  "tag": "unknown",
+  "patterns": [
+    "I don't know what you mean",
+    "That doesn't make sense",
+    "Can you explain differently",
+    "I'm confused",
+    "What are you talking about"
+  ],
+  "responses": [
+    "I'm not sure I understand. Could you please rephrase your question?",
+    "I didn't quite get that. Could you try asking in a different way?",
+    "I'm still learning. Could you explain what you mean?",
+    "I'm not sure how to respond to that. Could you please rephrase?"
+  ]
+      },
+    {
+      "tag": "general_knowledge",
+      "patterns": [
+        "What is the capital of France?",
+        "Who invented the telephone?",
+        "How big is the universe?",
+        "What is photosynthesis?",
+        "Tell me about history",
+        "Science facts",
+        "Geography questions",
+        "Cultural information"
+      ],
+      "responses": [
+        "I can help with general knowledge questions! Let me search for accurate information.",
+        "That's an interesting question! Let me find the best answer for you.",
+        "I'd be happy to look up information about that topic for you."
+      ]
+    }
+  ]
+}

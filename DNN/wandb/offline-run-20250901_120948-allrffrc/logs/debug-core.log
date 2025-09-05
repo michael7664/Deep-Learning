@@ -1,0 +1,9 @@
+{"time":"2025-09-01T12:09:49.289063+02:00","level":"INFO","msg":"main: starting server","port-filename":"/var/folders/_p/63pbwrqn6qj6590bpl6s2z4h0000gn/T/tmp3wb_hfjr/port-88718.txt","pid":88718,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-09-01T12:09:49.290016+02:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":88718}
+{"time":"2025-09-01T12:09:49.29004+02:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/var/folders/_p/63pbwrqn6qj6590bpl6s2z4h0000gn/T/wandb-88718-88907-660000450/socket","Net":"unix"}}
+{"time":"2025-09-01T12:09:49.378012+02:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1"}
+{"time":"2025-09-01T12:09:49.400809+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"allrffrc","id":"1"}
+{"time":"2025-09-01T12:09:49.638022+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"allrffrc","id":"1"}
+{"time":"2025-09-01T12:12:26.426445+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"allrffrc","id":"1"}
+{"time":"2025-09-01T12:12:26.431076+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"allrffrc","id":"1"}
+{"time":"2025-09-01T12:21:55.935587+02:00","level":"INFO","msg":"main: received shutdown signal","signal":2}

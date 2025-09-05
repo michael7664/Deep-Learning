@@ -1,0 +1,7 @@
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_125923-w6htoszk/logs/debug.log
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_125923-w6htoszk/logs/debug-internal.log
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:init():830] calling init triggers
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'framework': 'PyTorch', 'batch_size': 8, 'epochs': 3, '_wandb': {}}
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:init():871] starting backend
+2025-09-01 12:59:23,478 INFO    MainThread:90661 [wandb_init.py:init():874] sending inform_init request

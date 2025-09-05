@@ -1,0 +1,17 @@
+{"time":"2025-09-01T12:22:38.006255+02:00","level":"INFO","msg":"main: starting server","port-filename":"/var/folders/_p/63pbwrqn6qj6590bpl6s2z4h0000gn/T/tmpspwhfwls/port-90661.txt","pid":90661,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-09-01T12:22:38.008036+02:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":90661}
+{"time":"2025-09-01T12:22:38.008035+02:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/var/folders/_p/63pbwrqn6qj6590bpl6s2z4h0000gn/T/wandb-90661-90674-2091589792/socket","Net":"unix"}}
+{"time":"2025-09-01T12:22:38.059363+02:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1"}
+{"time":"2025-09-01T12:22:38.074515+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"672w3tvi","id":"1"}
+{"time":"2025-09-01T12:22:38.208851+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"672w3tvi","id":"1"}
+{"time":"2025-09-01T12:22:43.619368+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"672w3tvi","id":"1"}
+{"time":"2025-09-01T12:22:43.624217+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"672w3tvi","id":"1"}
+{"time":"2025-09-01T12:22:43.624464+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"5ai1sbst","id":"1"}
+{"time":"2025-09-01T12:22:43.744021+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"5ai1sbst","id":"1"}
+{"time":"2025-09-01T12:24:27.765512+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"5ai1sbst","id":"1"}
+{"time":"2025-09-01T12:24:27.767777+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"5ai1sbst","id":"1"}
+{"time":"2025-09-01T12:24:27.800884+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"l10d2rge","id":"1"}
+{"time":"2025-09-01T12:24:27.933163+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"l10d2rge","id":"1"}
+{"time":"2025-09-01T12:24:31.218696+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"l10d2rge","id":"1"}
+{"time":"2025-09-01T12:24:31.222771+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"l10d2rge","id":"1"}
+{"time":"2025-09-01T12:24:31.222796+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"4jp75ze6","id":"1"}

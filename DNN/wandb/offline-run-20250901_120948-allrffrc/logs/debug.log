@@ -1,0 +1,40 @@
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_setup.py:_flush():80] Configure stats pid to 88718
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_setup.py:_flush():80] Loading settings from /Users/shirshendusekharmondal/.config/wandb/settings
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_setup.py:_flush():80] Loading settings from /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/settings
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_120948-allrffrc/logs/debug.log
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/shirshendusekharmondal/Desktop/work/Deep_Learning/DNN/wandb/offline-run-20250901_120948-allrffrc/logs/debug-internal.log
+2025-09-01 12:09:48,555 INFO    MainThread:88718 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x10f076150>
+2025-09-01 12:09:48,556 INFO    MainThread:88718 [wandb_init.py:init():830] calling init triggers
+2025-09-01 12:09:48,556 INFO    MainThread:88718 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'framework': 'PyTorch', 'batch_size': 8, 'epochs': 3, '_wandb': {}}
+2025-09-01 12:09:48,556 INFO    MainThread:88718 [wandb_init.py:init():871] starting backend
+2025-09-01 12:09:49,378 INFO    MainThread:88718 [wandb_init.py:init():874] sending inform_init request
+2025-09-01 12:09:49,398 INFO    MainThread:88718 [wandb_init.py:init():882] backend started and connected
+2025-09-01 12:09:49,404 INFO    MainThread:88718 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2025-09-01 12:09:49,407 INFO    MainThread:88718 [wandb_init.py:init():953] updated telemetry
+2025-09-01 12:09:49,409 INFO    MainThread:88718 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-09-01 12:09:49,640 INFO    MainThread:88718 [wandb_init.py:init():1029] starting run threads in backend
+2025-09-01 12:09:49,989 INFO    MainThread:88718 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-01 12:09:49,989 INFO    MainThread:88718 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-01 12:09:49,989 INFO    MainThread:88718 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-01 12:09:49,989 INFO    MainThread:88718 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-01 12:09:49,991 INFO    MainThread:88718 [wandb_init.py:init():1075] run started, returning control to user process
+2025-09-01 12:10:09,913 INFO    MainThread:88718 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-09-01 12:10:15,417 INFO    MainThread:88718 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-09-01 12:10:15,417 INFO    MainThread:88718 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-09-01 12:10:15,646 INFO    MainThread:88718 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-09-01 12:10:25,702 INFO    MainThread:88718 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-09-01 12:10:25,702 INFO    MainThread:88718 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-09-01 12:12:25,475 INFO    MainThread:88718 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'curves/Precision-Recall(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Precision-Recall(B)', 'x-axis-title': 'Recall', 'y-axis-title': 'Precision'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Precision-Recall(B)_table'}], 'fields': []}]}]}}} None
+2025-09-01 12:12:25,730 INFO    MainThread:88718 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'curves/F1-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'F1-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'F1'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/F1-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-09-01 12:12:25,981 INFO    MainThread:88718 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'curves/Precision-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Precision-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'Precision'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Precision-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-09-01 12:12:26,234 INFO    MainThread:88718 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'curves/Recall-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Recall-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'Recall'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Recall-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-09-01 12:12:26,329 INFO    MainThread:88718 [wandb_run.py:_finish():2260] finishing run cv-pipeline-production/allrffrc
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [jupyter.py:save_history():480] not saving jupyter history
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [wandb_run.py:_restore():2441] restore
+2025-09-01 12:12:26,416 INFO    MainThread:88718 [wandb_run.py:_restore():2447] restore done
